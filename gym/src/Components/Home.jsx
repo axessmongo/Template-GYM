@@ -25,6 +25,7 @@ import blog2 from '../Assets/images/blog-2.jpg';
 import blog3 from '../Assets/images/blog-3.jpg';
 import footerBg from '../Assets/images/footer-bg.png';
 import footerClock from '../Assets/images/footer-clock.png';
+import logo from '../Assets/images/logo.png'
 import { playSharp, barbellSharp, location, call, mail, chevronForwardSharp, logoFacebook, logoInstagram, logoTwitter } from 'ionicons/icons';
 
 function Home() {
@@ -103,10 +104,7 @@ function Home() {
             <header className="headers" data-header>
                 <div className="container">
 
-                    <a href="#" className="logo">
-                        <IonIcon icon={barbellSharp} />
-                        <span className="span">Fitlife</span>
-                    </a>
+                    <a class="navbar-brand " href="index.html"><img src={logo} alt="logo" class="logo1"/></a>
 
                     <nav className="navbar navbar-expand-lg">
                         <button className="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
