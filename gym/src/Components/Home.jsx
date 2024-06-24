@@ -34,22 +34,22 @@ function Home() {
         {
             img: class1,
             icon: classIcon1,
-            title: "Weight Lifting",
-            text: "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+            title: "Strength Training",
+            text: "Build muscle and increase your strength with our comprehensive strength training programs. Perfect for all levelsour sessions focus on weightlifting, resistance exercises, and functional movements.",
             progress: 85,
         },
         {
             img: class2,
             icon: classIcon2,
-            title: "Cardio & Strength",
-            text: "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+            title: "Cardio Workouts",
+            text: "Boost your heart health and burn calories with our energetic cardio workouts. From cycling to HIIT, our classesare designed to keep your heart rate up and your energy levels high.",
             progress: 70,
         },
         {
             img: class3,
             icon: classIcon3,
-            title: "Power Yoga",
-            text: "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+            title: "Flexibility and Mobility Training",
+            text: "Enhance your range of motion and prevent injuries with our flexibility and mobility training. Our yoga and stretching sessions are perfect for improving balance, reducing stress, and increasing overall flexibility.",
             progress: 90,
         },
         {
@@ -104,7 +104,7 @@ function Home() {
             <header className="headers" data-header>
                 <div className="container">
 
-                    <a class="navbar-brand " href="index.html"><img src={logo} alt="logo" class="logo1"/></a>
+                    <a class="navbar-brand " href="index.html"><img src={logo} alt="logo" class="logo1" /></a>
 
                     <nav className="navbar navbar-expand-lg">
                         <button className="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,10 +144,10 @@ function Home() {
                             <strong className="strong">The Best</strong>Fitness Club
                         </p>
 
-                        <h1 className=" hero-title display-1 text-light">Work Hard To Get Better Life</h1>
+                        <h1 className=" hero-title display-1 text-light">Push Yourself for a Healthier Life</h1>
 
                         <p className="section-text">
-                            Duis mollis felis quis libero dictum vehicula. Duis dictum lorem mi, a faucibus nisi eleifend eu.
+                            Transform Yourself, One Workout at a Time
                         </p>
 
                         {/* <a href="#" className="btn btn-primary">Get Started</a> */}
@@ -177,10 +177,12 @@ function Home() {
 
                     <div className="about-content">
                         <p className="section-subtitle">About Us</p>
-                        <h2 className="h2 section-title display-1">Welcome To Our Fitness Gym</h2>
+                        <h2 className="h2 section-title display-1">Welcome to Your Fitness Journey</h2>
                         <p className="section-text">
-                            Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
-                            Pellentesque porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+                            Welcome to our fitness gym, where your health and well-being are our top priorities. We offer state-of-the-art
+                            equipment, expert trainers, and a variety of classes to suit all fitness levels. Whether you're looking to build
+                            strength, lose weight, or improve overall fitness, we're here to support you every step of the way. Join us and start
+                            transforming your life today!
                         </p>
                         <p className="section-text">
                             Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante
@@ -193,7 +195,7 @@ function Home() {
                                     <img src={aboutCoach} width="65" height="65" loading="lazy" alt="Trainer" />
                                 </figure>
                                 <div>
-                                    <h3 className="h3 coach-name">Denis Robinson</h3>
+                                    <h3 className="h3 coach-name">Anand</h3>
                                     <p className="coach-title">Our Coach</p>
                                 </div>
                             </div>
@@ -220,7 +222,7 @@ function Home() {
             <section className="section class bg-dark has-bg-image" id="class" aria-label="class" style={{ backgroundImage: `url(${classesBg})` }}>
                 <div className="container">
                     <p className="section-subtitle">Our Classes</p>
-                    <h2 className="h2 section-title text-center display-1">Fitness Classes For Every Goal</h2>
+                    <h2 className="h2 section-title text-center display-1">Fitness classes designed for every goal</h2>
                     <ul className="class-list has-scrollbar">
                         {classes.map((item, index) => (
                             <li key={index} className="scrollbar-item">
@@ -283,12 +285,10 @@ function Home() {
                 <div className="section footer-top bg-dark has-bg-image" style={{ backgroundImage: `url(${footerBg})` }}>
                     <div className="container">
                         <div className="footer-brand">
-                            <a href="#" className="logo">
-                                <IonIcon icon={barbellSharp} />
-                                <span className="span">Fitlife</span>
-                            </a>
+                        <a class="navbar-brand " href="index.html"><img src={logo} alt="logo" class="logo1" /></a>
+
                             <p className="footer-brand-text">
-                                Etiam suscipit fringilla ullamcorper sed malesuada urna nec odio.
+                            Transform Yourself, One Workout at a Time
                             </p>
                             <div className="wrapper">
                                 <img src={footerClock} width="34" height="34" loading="lazy" alt="Clock" />
@@ -350,8 +350,8 @@ function Home() {
                                     <IonIcon icon={mail} />
                                 </div>
                                 <div>
-                                    <a href="mailto:info@fitlife.com" className="footer-link">info@fitlife.com</a>
-                                    <a href="mailto:services@fitlife.com" className="footer-link">services@fitlife.com</a>
+                                    <a href="mailto:info@fitlife.com" className="footer-link">info@bodytemple.com</a>
+                                    <a href="mailto:services@fitlife.com" className="footer-link">services@bodytemple.com</a>
                                 </div>
                             </li>
                         </ul>
@@ -399,7 +399,7 @@ function Home() {
                 <div className="footer-bottom">
                     <div className="container">
                         <p className="copyright">
-                            &copy; 2022 Fitlife. All Rights Reserved By <a href="#" className="copyright-link">codewithsadee.</a>
+                            &copy; 2022 bodytemple. All Rights Reserved By <a href="#" className="copyright-link">Body Temple</a>
                         </p>
                         <ul className="footer-bottom-list">
                             <li>
