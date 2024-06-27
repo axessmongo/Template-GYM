@@ -982,6 +982,8 @@ body {
 
 .footer-link {
   transition: var(--transition-1);
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .footer-link:not(.address):is(:hover, :focus) {

@@ -402,12 +402,12 @@ function Home() {
                             &copy; 2022 bodytemple. All Rights Reserved By <a href="#" className="copyright-link">Body Temple</a>
                         </p>
                         <ul className="footer-bottom-list">
-                            <li>
+                            {/* <li>
                                 <a href="#" className="footer-bottom-link has-before">Privacy Policy</a>
                             </li>
                             <li>
                                 <a href="#" className="footer-bottom-link has-before">Terms & Condition</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
