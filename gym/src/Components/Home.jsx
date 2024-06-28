@@ -9,7 +9,7 @@ import aboutBanner from '../Assets/images/about-banner.png';
 import aboutCircleOne from '../Assets/images/about-circle-one.png';
 import aboutCircleTwo from '../Assets/images/about-circle-two.png';
 import fitness from '../Assets/images/fitness.png';
-import aboutCoach from '../Assets/images/about-coach.jpg';
+import aboutCoach from '../Assets/images/aboutCoach.jpg';
 import videoBanner from '../Assets/images/video-banner.jpg';
 import class1 from '../Assets/images/class-1.jpg';
 import class2 from '../Assets/images/class-2.jpg';
@@ -184,10 +184,10 @@ function Home() {
                             strength, lose weight, or improve overall fitness, we're here to support you every step of the way. Join us and start
                             transforming your life today!
                         </p>
-                        <p className="section-text">
+                        {/* <p className="section-text">
                             Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante
                             ipsum primis.
-                        </p>
+                        </p> */}
 
                         <div className="wrapper">
                             <div className="about-coach">
@@ -211,10 +211,10 @@ function Home() {
                 <div className="container">
                     <div className="video-card has-before has-bg-image" style={{ backgroundImage: `url(${videoBanner})` }}>
                         <h2 className="h2 card-title">Explore Fitness Life</h2>
-                        <button className="play-btn" aria-label="play video">
+                        {/* <button className="play-btn" aria-label="play video">
                             <IonIcon icon={playSharp} />
                         </button>
-                        <a href="#" className="btn-link has-before">Watch More</a>
+                        <a href="#" className="btn-link has-before">Watch More</a> */}
                     </div>
                 </div>
             </section>
@@ -350,8 +350,8 @@ function Home() {
                                     <IonIcon icon={mail} />
                                 </div>
                                 <div>
-                                    <a href="mailto:info@fitlife.com" className="footer-link">info@bodytemple.com</a>
-                                    <a href="mailto:services@fitlife.com" className="footer-link">services@bodytemple.com</a>
+                                    <a href="mailto:info@fitlife.com" className="footer-link">info@bodytemple.pro</a>
+                                    <a href="mailto:services@fitlife.com" className="footer-link">services@bodytemple.pro</a>
                                 </div>
                             </li>
                         </ul>
@@ -399,7 +399,7 @@ function Home() {
                 <div className="footer-bottom">
                     <div className="container">
                         <p className="copyright">
-                            &copy; 2022 bodytemple. All Rights Reserved By <a href="#" className="copyright-link">Body Temple</a>
+                            &copy; 2024 bodytemple. All Rights Reserved By <a href="#" className="copyright-link">Body Temple</a>
                         </p>
                         <ul className="footer-bottom-list">
                             {/* <li>
