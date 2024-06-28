@@ -333,7 +333,7 @@ function Home() {
                                     <IonIcon icon={location} />
                                 </div>
                                 <address className="address footer-link">
-                                    1247/Plot No. 39, 15th Phase, Colony, Kukatpally, Hyderabad
+                                    1247/Plot No. 39, 15th Phase, Chennai.
                                 </address>
                             </li>
                             <li className="footer-list-item">
