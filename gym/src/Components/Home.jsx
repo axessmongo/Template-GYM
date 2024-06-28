@@ -309,19 +309,19 @@ function Home() {
                                 <p className="footer-list-title has-before">Our Links</p>
                             </li>
                             <li>
-                                <a href="#" className="footer-link">Home</a>
+                                <a href="#home" className="footer-link">Home</a>
                             </li>
                             <li>
-                                <a href="#" className="footer-link">About Us</a>
+                                <a href="#about" className="footer-link">About Us</a>
                             </li>
                             <li>
-                                <a href="#" className="footer-link">Classes</a>
+                                <a href="#class" className="footer-link">Classes</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#" className="footer-link">Blog</a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a href="#" className="footer-link">Contact Us</a>
+                                <a href="#contact" className="footer-link">Contact Us</a>
                             </li>
                         </ul>
                         <ul className="footer-list">
