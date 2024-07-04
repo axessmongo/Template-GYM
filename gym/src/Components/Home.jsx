@@ -333,10 +333,10 @@ function Home() {
                                     <IonIcon icon={location} />
                                 </div>
                                 <address className="address footer-link">
-                                    1247/Plot No. 39, 15th Phase, Chennai.
+                                    Chennai.
                                 </address>
                             </li>
-                            <li className="footer-list-item">
+                            {/* <li className="footer-list-item">
                                 <div className="icon">
                                     <IonIcon icon={call} />
                                 </div>
@@ -344,7 +344,7 @@ function Home() {
                                     <a href="tel:18001213637" className="footer-link">1800-121-3637</a>
                                     <a href="tel:+915552348765" className="footer-link">+91 555 234-8765</a>
                                 </div>
-                            </li>
+                            </li> */}
                             <li className="footer-list-item">
                                 <div className="icon">
                                     <IonIcon icon={mail} />
